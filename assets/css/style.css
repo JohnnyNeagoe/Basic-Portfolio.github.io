@@ -22,7 +22,7 @@ h1 {
     background-color: #4aaaa5; 
     color: white;
     font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
     position: fixed;
     left: 20%;
 
