@@ -1,8 +1,62 @@
-#heading { 
+.font{
+    color: #777777;
+}
+
+#container {
+    position:fixed;
+    top:0%;
+    height:10%;
+    background-color: white;
+    border-color: #cccccc;
+    border-bottom: 2px;
+    border-style: inset;
+    width: 100%;
+    clear: both;
+    margin-bottom: 5%;
+}
+
+h1 { 
     font:bold; 
-    size: 20px; 
-    margin-bottom: 15px; 
-    background-color: #2daea7; 
-    color: aliceblue;
-    text-decoration: underline;
+    float:left;
+    padding:25px;
+    background-color: #4aaaa5; 
+    color: white;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 20%;
+
+}
+
+h2 {
+    color: #4aaaa5;
+}
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    left:70%;
+    position:relative;
+    clear:both;
+}
+
+.container2 > a {
+    margin: 7px;
+    
+}
+
+.container3 {
+    width: 960px;
+    margin-top: 10%;
+}
+
+#pic {
+    width:250px;
+    height:250px;
+    float: left;
+    margin-left: 20%;
+    position:relative;
+    margin-top: 20%;
+
+
+
 }
