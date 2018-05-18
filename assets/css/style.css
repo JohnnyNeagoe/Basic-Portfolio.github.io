@@ -7,6 +7,10 @@ body {
     background-image: url("../images/sky.png");
 }
 
+html, body {
+    height:100%;
+    margin:0;
+}
 .container {
     position: fixed;
     left:0%;
@@ -20,6 +24,7 @@ body {
     float:left;
     display:flex;
     flex-wrap: nowrap;
+    z-index: 1;
 }
 
     h1 { 
@@ -31,17 +36,21 @@ body {
         font-family: Georgia, 'Times New Roman', Times, sans-serif;
         position: fixed;
         left: 16.05%;
+        z-index: 2;
     }
     nav {
         position:absolute;
-        right:18.5%;
+        right:16.7%;
         top:35%;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
     a {
-        padding:3px;
+        padding:10px;
         text-decoration: none;
         color: #777777;
+        border-style: ridge;
+        border:#777777;
     }
 
 
@@ -50,23 +59,26 @@ body {
     min-width: 961px;
     background-color: white;
     clear:both;
-    margin-top: 95px;
+    margin-top: 105px;
     margin-right:16%;
     margin-left:16%;
     border:#dddddd;
     border-style: ridge;
     border-width:1px;
+    min-height: 100%;
+    margin-bottom:75px;
 }
 
 
 h2 {
-    font-size:25px;
+    font-size:30px;
     font:bolder;
     color:#4aaaa5;
     position: relative;
-    padding:20px;
+    padding:25px;
     margin-left:12px;
 }
+
 p {
     width:960px;
     line-height: 25px;
@@ -76,6 +88,7 @@ p {
     padding-bottom: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 
 hr {
     margin-left:30px;
@@ -88,6 +101,7 @@ hr {
     float: left;
     padding:15px;
     margin-left:15px;
+    margin-bottom: -5px;
 }
 
 form {
@@ -107,45 +121,70 @@ footer {
     border-left:none;
     border-right: none; 
     border-bottom:none;
-    font-size:12px;
+    font-size:8px;
     text-align:center;
     color:white;
     position: absolute;
     width:100%;
-    bottom:0%;
-
+    margin-top:-50px;
 }
 input {
     width: 875px;
-    height:25px;
+    height:30px;
     box-sizing: border-box;
 }
 #button {
     width:80px;
     height:40px;
-    margin-top:200px;
+    margin-top:350px;
 }
     
 .title {
-    height:45px;
+    height:50px;
 }
 
 textarea {
     width: 875px;
-    height: 200px;
+    height: 350px;
     resize:none;
 }
-
-
 
 h4 {
     padding-bottom:3px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+footer {
+    height:50px;
+}
 
+#projects {
+    flex-wrap: nowrap;
+    display: flex;
+    padding:30px;
+    margin-top:-90px;
+}
 
+.projects2 > img {
+    margin: 10px;
+    height: 160px;
+    width:200px;
+    position:relative;
+    z-index: 3;
+}
 
+.projects2 > h5 {
+    width:200px;
+    background-color:teal;
+    color: white;
+    padding: 15px;
+    margin:10px;
+    z-index: 4;
+    bottom:30px;
+    position: relative;
+    bottom:-65%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
 
-
+}
 
