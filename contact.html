@@ -19,22 +19,31 @@
       </nav>
     </header>
   <section class="container2">
-      <h2>Contact</h2>
+      <div>  
+          <h2>Contact</h2>
+          <hr>
+      </div>
       <form>
-          Name<br>
+        <div class="title">
+          <h4>Name</h4>
           <input type="text" name="name">
+        </div>
           <br>
-          Email<br>
-          <input type="text" name="email">
+          <div class="title">
+              <h4>Email</h4>
+              <input type="text" name="email">
+          </div>
           <br>
-          Message<br>
-          <input type="text" name="message">
-          <br>
-          <br>
-          <input type="button" value="Submit">
+          <div class="title">
+            <h4>Message</h4>
+            <textarea name="message" type="text" rows=1 cols="40"></textarea>
+          </div>
+          <div class="title">
+            <input id="button" type="button" value="Submit">
+          </div>
       </form>    
   </section>
-  <footer>copyrght</footer>
+  <footer>CopyRight</footer>
 </body>
 </html>
 

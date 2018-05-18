@@ -98,7 +98,7 @@ form {
 
 
 footer { 
-    clear: top;
+    clear: both;
     padding: 10px;
     background-color: #666666;
     border-top: #4aaaa5;
@@ -119,6 +119,10 @@ input {
     width: 875px;
     height:25px;
     box-sizing: border-box;
+    position: relative;
+    left:0%;
+    top:0;
+
 }
 #button {
     width:80px;
@@ -130,12 +134,9 @@ input {
     height:45px;
 }
 
-textarea {
-    width: 875px;
-    height: 200px;
-    resize:none;
+#message {
+    height: 175px;
 }
-
 
 
 h4 {
